@@ -262,6 +262,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    flex-direction: column-reverse;
   }
   .security-img{
     flex: 50%;
@@ -546,7 +547,7 @@
       font-size: 3.7rem;
     }
     nav ul {
-      background-color: rgba(0, 0, 0, 0.386);
+      background-color: rgb(0, 0, 0);
       position: fixed;
       left: -100vw;
       top: 73.6px;
@@ -640,7 +641,7 @@
       padding-left: 3%;
     }
     .security-img img{
-      padding-top: 10%;
+      padding-bottom: 13%;
       width: 280px;
     }
     .card-matter h2{
